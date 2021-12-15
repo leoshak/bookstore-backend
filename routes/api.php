@@ -6,6 +6,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Api\AuthorController;
 use App\Http\Controllers\Api\BookController;
 
+// Register authors
 Route::post("register", [AuthorController::class, "register"]);
 Route::post("login", [AuthorController::class, "login"]);
 Route::post("refresh", [AuthorController::class, "refreshToken"]);
