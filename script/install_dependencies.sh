@@ -14,7 +14,8 @@ yum install -y git
 yum -y remove httpd* php*
 
 # Install PHP 7.1
-yum install -y php71 php71-cli php71-fpm php71-mysql php71-xml php71-curl php71-opcache php71-pdo php71-gd php71-pecl-apcu php71-mbstring php71-imap php71-pecl-redis php71-mcrypt php71-mysqlnd mod24_ssl
+yum install -y php73 php73-cli php73-fpm php73-mysql php73-xml php73-curl php73-opcache php73-pdo php73-gd php73-pecl-apcu php73-mbstring php73-imap php73-pecl-redis php73-mysqlnd mod24_ssl
+#  php73-mcrypt
 
 # Install Apache 2.4
 yum -y install httpd24
